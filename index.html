@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Portfolio</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/css.css">
+</head>
+
+<body>
+
+    <section id="home">
+        <div class="content-container">
+            <img src="styles/imgs/Red Team.png" alt="Logo" class="profile-image">
+            
+            <div class="text-content">
+                <h2>Hello!</h2>
+                <p><b>I'm João Pedro Moreira (J0hnTh3Kn1ght)</b></p>
+                <p>Security Researcher | Penetration Tester | Ethical Hacker | Malware Dev | Web Hacker</p>
+                <button id="download-cv" onclick="downloadCV()">Download CV</button>
+    
+                <div class="links">
+                    <h2>Media | WebSites</h2>
+                    <a href="https://github.com/jsmoreira02" target="_blank" class="icon-link">
+                        <img src="styles/imgs/tech/github-original.png" alt="GitHub" class="social-icon">
+                    </a>
+                    <a href="https://linkedin.com/in/joaomoreira02" target="_blank" class="icon-link">
+                        <img src="styles/imgs/tech/linkedin-original.png" alt="LinkedIn" class="social-icon">
+                    </a>
+                </div>
+    
+                <div class="technologies">
+                    <h2>Technologies</h2>
+                    <div class="tech-icons">
+                        <img src="styles/imgs/tech/rust-original.png" alt="Rust" class="tech-icon">
+                        <img src="styles/imgs/tech/python-original.png" alt="Python" class="tech-icon">
+                        <img src="styles/imgs/tech/cplusplus-original.png" alt="C++" class="tech-icon">
+                        <img src="styles/imgs/tech/bash-original.png" alt="Bash" class="tech-icon">
+                        <img src="styles/imgs/tech/powershell-original.png" alt="Powershell" class="tech-icon">
+                        <img src="styles/imgs/tech/ruby-original.png" alt="Ruby" class="tech-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <center><h2><b>> Main Projects <</b></h2></center>
+
+    <section id="projects">
+        <div class="project">
+            <div class="project-box">
+                <img src="styles/imgs/KoopaShell.png" alt="Projeto 1">
+                <div class="project-info">
+                    <h3>KoopaShell - Multiple Reverse Shell Handler | C2 like Framework</h3>
+                    <h1></h1>
+                    <p>Koopa Shell is an advanced tool designed to simplify the management of remote connections. It creates disguised PowerShell commands that remain unnoticed, ensuring operations are discreet and efficient. With support for both Linux and Windows environments, Koopa Shell is a versatile solution for cybersecurity professionals working across various systems.</p></br>
+                    <a href="https://github.com/Jsmoreira02/KoopaShell">> Visit The Project <</a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="styles/imgs/Malicious.png" alt="Projeto 2">
+                <div class="project-info">
+                    <h3>Malicious Wordpress Plugin</h3>
+                    <p>Hacking WordPress Plugins - Authenticated Shell Upload, by compromising admin console and upload a malicious plugin with PHP (reverse shell code) </p></br>
+                    <a href="https://github.com/Jsmoreira02/Malicious_Plugin">> Visit The Project <</a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="styles/imgs/littleevil.png" alt="Projeto 2">
+                <div class="project-info">
+                    <h3>Keylogger | Covert Channel</h3>
+                    <p>Proof of Concept of a Advanced keylogger and covert channel - Remotely receiving victim's keystrokes and clipboard data. emulating an illegal covert channel between the victim and the attacker </p></br></br></br>
+                    <a href="https://github.com/Jsmoreira02/Keylogger-Evil_Server">> Visit The Project <</a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="styles/imgs/hazard.png" alt="Projeto 2">
+                <div class="project-info">
+                    <h3>Hazard</h3>
+                    <p>Hazard is a tool for automating brute force attacks using the dictionary attack method. This method tests hundreds or even millions of possible passwords to illegally authenticate a user on the target network. Supports (to date) the most sensitive and common network protocols available</p></br>
+                    <a href="https://github.com/Jsmoreira02/Hazard">> Visit The Project <</a>
+                </div>
+            </div>
+            <div class="project-box">
+                <img src="styles/imgs/shellshock.png" alt="Projeto 2">
+                <div class="project-info">
+                    <h3>CVE-2014-6271</h3>
+                    <p>Shellshock is effectively a Remote Command Execution vulnerability in BASH. This script exploits the vulnerability in the web environment. This allows attackers to potentially compromise the system.</p></br>
+                    <a href="https://github.com/Jsmoreira02/CVE-2014-6271">> Visit The Project <</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
